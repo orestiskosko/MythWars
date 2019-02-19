@@ -9,7 +9,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DomainModels", "DomainModel
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DomainLogic", "DomainLogic\DomainLogic.csproj", "{9058FD23-05B9-436F-A466-BB6F30F5A47A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DomainModels.Tests", "DomainModels.Tests\DomainModels.Tests.csproj", "{F9083BE4-556E-45CF-B6D5-A6638DB0D08B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DomainModels.Tests", "DomainModels.Tests\DomainModels.Tests.csproj", "{F9083BE4-556E-45CF-B6D5-A6638DB0D08B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

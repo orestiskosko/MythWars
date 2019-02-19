@@ -52,7 +52,7 @@ namespace DomainModels
 
         // Army
         int populationCapacity { get; }  // definitely private set, according to player level and vip and etc.
-        int populationCapacityCalculator(int level, int vipLevel, );
+        int populationCapacityCalculator(int level, int vipLevel);
         ICollection<Units> units { get; }  // maybe private set better
         PlayerArmy army { get; set; }
     }
