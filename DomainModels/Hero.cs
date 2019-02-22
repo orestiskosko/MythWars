@@ -4,7 +4,12 @@ using System.Text;
 
 namespace DomainModels
 {
-    class Hero
+    public class Hero : Unit
     {
+        float MoraleMultiplier { get; set; }
+        RarityEnum rarity { get; set; }
+
+        ICollection<HeroStatsEnum> stats { get; set; }
+        ICollection<HeroSkillsEnum> skills { get; set; }
     }
 }

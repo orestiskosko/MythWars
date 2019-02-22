@@ -4,7 +4,8 @@ using System.Text;
 
 namespace DomainModels
 {
-    class Minion
+    public class Minion : Unit
     {
+
     }
 }

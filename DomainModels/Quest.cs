@@ -4,7 +4,8 @@ using System.Text;
 
 namespace DomainModels
 {
-    class Quest
+    public class Quest
     {
+        QuestsEnum QuestType { get; set; }
     }
 }

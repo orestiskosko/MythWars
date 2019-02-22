@@ -29,6 +29,7 @@ namespace DomainModels
 
         // Units
         ICollection<Hero> Heroes { get; set; }
+        ICollection<MinionsEnum> UnitsAvailableForUser { get; set; }  // not all users can have the same minions available
 
         // Army
         int ArmyId { get; set; }
@@ -38,9 +39,6 @@ namespace DomainModels
         ICollection<Quest> QuestsCompleted { get; set; }
         ICollection<Quest> QuestsNotCompleted { get; set; }
 
-        int IUser.PopulationCapacityCalculator(int level, int townHallLevel, int vipLevel)
-        {
-            return 0;
-        }
+        int IUser.PopulationCapacityCalculator(int level, int townHallLevel, int vipLevel) { return 0; }
     }
 }
